@@ -1,10 +1,12 @@
+@import url('../vendor/fonts.css');
+
 .page {
   box-sizing: border-box;
   padding: 28px 0 0 0;
   background-color: #2A2C2F;
   min-width: 1280px;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial';
   color: white;
 }
 
@@ -45,4 +47,58 @@
   position: absolute;
   top: 18px;
   right: 0;
+}
+
+
+
+.lead {
+  max-width: 984px;
+  max-height: 1005px;
+  position: relative;
+  margin: 0 auto 92px auto;
+  padding: 0;
+  align-content: center;
+}
+
+.lead__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  width: 720px;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto 32px auto;
+  padding: 0;
+}
+
+.lead__subtitle {
+  padding: 0;
+  margin: 0 auto 64px auto;
+  width: 640px;
+  height: 72px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+}
+
+.lead__caption {
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.intro {
+  width: 690px;
+  height: 429px;
+  border: 1px solid red;
+  margin: 0 442px 0 148px;
+  padding: 0;
 }
