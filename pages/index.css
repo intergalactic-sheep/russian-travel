@@ -1,28 +1,48 @@
 .page {
   box-sizing: border-box;
-  padding: 0;
+  padding: 28px 0 0 0;
   background-color: #2A2C2F;
   min-width: 1280px;
   margin: 0;
   font-family: 'Arial', sans-serif;
-  border: 1px solid red;
+  color: white;
 }
 
 .header {
   position: relative;
-  margin: 28px auto 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 1184px;
-  height: 52px;
+  min-height: 52px;
   background-color: #2A2C2F;
 }
 
 .header__logo {
-    position: absolute;
-    top: 28px;
-    left: 48px;
-    background-image: url(./img/__logo.svg);
-    width: 176px;
-    height: 52px;
-    border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left:0;
+  background-image: url("../img/header-logo.svg");
+  width: 176px;
+  height: 52px;
+  z-index: 2;
+}
+
+.header__lang-link {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.header__lang-link_lang_ru {
+  position: absolute;
+  top: 18px;
+  right: 47px;
+}
+
+.header__lang-link_lang_en {
+  position: absolute;
+  top: 18px;
+  right: 0;
 }
