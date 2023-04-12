@@ -144,3 +144,19 @@
 .intro__list-bold {
   font-weight: 700;
 }
+
+
+
+.photo-grid {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 0 auto 92px auto;
+}
+
+.photo-grid__item {
+  max-width: 284px;
+  max-height: 213px;
+}
