@@ -1,0 +1,37 @@
+.cover {
+  min-width: 1184px;
+  max-width: 1280px;
+  min-height: 740px;
+  margin: 0 auto 92px auto;
+  padding: 0;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1024px) and (max-width:1279px) {
+  .cover {
+    min-width: 100%;
+    margin: 0 0 92px 0;
+    min-height: 640px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .cover {
+    min-width: 100%;
+    margin: 0 0 88px 0;
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cover {
+    max-width: 100%;
+    min-width: 320px;
+    min-height: 200px;
+    margin: 0 auto 64px auto;
+  }
+}
