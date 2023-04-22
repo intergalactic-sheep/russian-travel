@@ -2,12 +2,9 @@
   min-width: 1184px;
   max-width: 1280px;
   min-height: 740px;
+  max-height: 740px;
   margin: 0 auto 92px auto;
   padding: 0;
-}
-
-.cover:hover .cover__overlay {
-  opacity: .8;
 }
 
 @media screen and (min-width: 1024px) and (max-width:1279px) {
