@@ -34,4 +34,8 @@ Before making a pull request, please indicate in the appropriate conversation th
 
 Please, during the working process follow the actual version of the project!
 
+## Ссылка на GitHub Pages / GitHub Pages URL
+
+https://intergalactic-sheep.github.io/russian-travel/
+
 [Yandex Practicum](https://practicum.yandex.ru/)
