@@ -1,30 +1,30 @@
 .cover {
-  min-width: 1184px;
-  max-width: 100%;
+  max-width: 1184px;
+  min-height: 740px;
   margin: 0 auto 92px auto;
   padding: 0;
 }
 
 @media screen and (max-width:1280px) {
   .cover {
-    min-width: 1024px;
     max-width: 100%;
+    min-height: 640px;
     margin: 0 0 92px 0;
   }
 }
 
 @media screen and (max-width:1024px) {
   .cover {
-    min-width: 768px;
     max-width: 100%;
+    min-height: 480px;
     margin: 0 0 88px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    min-width: 320px;
-    max-width: 100%;
+    width: 100%;
+    min-height: 200px;
     margin: 0 auto 64px auto;
   }
 }
