@@ -2,9 +2,11 @@
   grid-area: paragraph;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     margin: 32px auto 0 auto;
     max-width: 288px;

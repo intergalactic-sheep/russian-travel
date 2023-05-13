@@ -5,9 +5,10 @@
   flex-direction: column;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__website {
     margin: 0 auto 32px auto;
-    width: 288px;
+    min-width: 288px;
+    max-width: 288px;
   }
 }
