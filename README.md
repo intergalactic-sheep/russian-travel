@@ -7,7 +7,7 @@
 The project "Traveling around Russia" is aimed at a detailed study of the basics of adaptive layout, site optimization for various types of devices.
 
 ## Технологии / Technologies
-Во время разработки использовались как простейшие технологии (базовая разметка HTML-разметка страницы и присвоение CSS-стилей связанным файлом), так и более сложные задачи, например, с использованием псведоселекторов. Немало внимание уделялось адаптивной составляющей проекта, подгонке измерений под условные единицы. Также испольщ=зовалась структура "Nested".
+Во время разработки использовались как простейшие технологии (базовая разметка HTML-разметка страницы и присвоение CSS-стилей связанным файлом), так и более сложные задачи, например, с использованием псведоселекторов. Немало внимание уделялось адаптивной составляющей проекта, подгонке измерений под условные единицы. Также использовалась структура "Nested".
 
 ---
 During development, both the simplest technologies (basic markup of the HTML page markup and assigning CSS styles to the associated file) and more complex tasks, for example, using pseudo-selectors, were used. A lot of attention was paid to the adaptive component of the project, fitting measurements to conventional units. The "Nested" structure was also used.
